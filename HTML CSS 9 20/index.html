@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .half-width {
+            width: 40%;
+        }
+
+        .half-width>h1 {
+            font-size: 40px;
+        }
+
+        .half-width>p {
+            text-align: justify;
+        }
+
+        .half-width img {
+            width: 100%;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: linear-gradient(rgba(253, 29, 29, 1), rgba(252, 176, 69, 1));
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .name {
+            color: orange;
+        }
+
+        #left-box {
+            box-shadow: 5px 7px 40px gray;
+            margin: 10px;
+            padding: 30px 40px;
+            border-left: 5px solid orange;
+        }
+
+        #right-box {
+            box-shadow: 5px 7px 40px gray;
+            margin: 10px;
+            padding: 30px 40px;
+            border-left: 5px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="half-width">
+            <h1>Welcome to</h1>
+            <h1> <span class="name">peter parker</span> world</h1>
+            <h3>Web design and development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet rem quidem? Autem quae qui ex
+                ratione! Id esse perferendis voluptatibus corrupti officia a facere quisquam, tenetur, laborum illo
+                laboriosam?</p>
+
+            <a href="#" class="btn" target="_blank">Hire me</a>
+        </div>
+        <div class="half-width">
+            <img src="./images/my-bg-left.jpg" alt="">
+        </div>
+    </section>
+    <section class="container">
+        <div class="half-width">
+            <img src="./images/my-bg2.jpg" alt="" srcset="">
+        </div>
+        <div class="half-width">
+            <h1>Dreame Big</h1>
+            <h3>Web design and development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet rem quidem? Autem quae qui ex
+                ratione! Id esse perferendis voluptatibus corrupti officia a facere quisquam, tenetur, laborum illo
+                laboriosam?</p>
+
+            <a href="#" class="btn" target="_blank">Download Resume</a>
+        </div>
+    </section>
+    <section class="container">
+        <div class="half-width" id="left-box">
+            <h2>Full Stack web developer</h2>
+            <h3>2021-present || pro level developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum necessitatibus voluptates ipsum
+                numquam sunt suscipit reiciendis dolores commodi rerum a iusto placeat vero consequatur facere officia,
+                natus alias atque.</p>
+        </div>
+        <div class="half-width" id="right-box">
+            <h2>Full Stack web developer</h2>
+            <h3>2021-present || pro level developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum necessitatibus voluptates ipsum
+                numquam sunt suscipit reiciendis dolores commodi rerum a iusto placeat vero consequatur facere officia,
+                natus alias atque.</p>
+        </div>
+
+    </section>
+</body>
+
+</html>
